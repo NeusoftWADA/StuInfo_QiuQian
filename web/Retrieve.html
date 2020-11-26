@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查</title>
+    <style>
+        .form {
+            text-align: center;
+            border: 1px solid black;
+            padding-bottom: 20px;
+            width: 500px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="form">
+    <form method="POST" action="RetrieveServlet">
+        <h3>学生信息表CRUD（查询）</h3>
+        <input type="text" name="SIID" placeholder="请输入要查询的学生学号" >
+        <button>submit</button> <br><br>
+        <button>查询全部数据</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>改</title>
+    <style>
+        .form {
+            text-align: center;
+            border: 1px solid black;
+            padding-bottom: 20px;
+            width: 500px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="form">
+    <form method="POST" action="UpdateServlet">
+        <h3>学生信息表CRUD（修改）</h3>
+        <h4>请输入要修改的学生信息，如有不需要修改的信息，请保持输入框为空</h4>
+        <input type="text" name="ID" placeholder="学号"> <br>
+        <input type="text" name="Name" placeholder="姓名">
+        <input type="text" name="Gender" placeholder="性别(男/女)">
+        <input type="text" name="Birthday" placeholder="生日(xxxx-xx-xx)">
+        <input type="text" name="State" placeholder="状态(在读/休学)"> <br><br>
+        <button>修改</button> <br><br>
+    </form>
+</div>
+</body>
+</html>
